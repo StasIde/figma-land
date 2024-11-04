@@ -1,14 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figmaland</title>
+    <link
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <img src="./assets/logo-land.svg" alt="logo" />
+
+      <ul>
+        <li>
+          <a href="#"><img src="./assets/twitter.svg" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/facebook.svg" alt="facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/linkedin.svg" alt="linkedin" />
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <section class="features">
+      <h1>The best products start with Figma</h1>
+      <h4>
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </h4>
+      <button>Try For Free</button>
+      <div>
+        <h2>Features</h2>
+        <h4>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </h4>
+
+        <div>
+          <div>
+            <img src="./assets/figures.svg" alt="figures" />
+            <h3>OpenType features Variable fonts</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+
+          <div>
+            <img src="./assets/draw.svg" alt="figures" />
+            <h3>Design with real data</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+
+          <div>
+            <img src="./assets/brush.svg" alt="figures" />
+            <h3>Fastest way to take action</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <video poster="./assets/poster.jpg">
+            <source src="/" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div>
+        <div>
+          <h2>Fastest way to organize</h2>
+          <h4>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+          <button type="button">Try For Free</button>
+        </div>
+
+        <div>
+          <img src="./assets/macbook.jpg" alt="macbook" />
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div>
+        <div>
+          <img src="./assets/newsletter.svg" alt="" />
+        </div>
+
+        <div>
+          <h3>At your fingertips</h3>
+          <h2>Lightning fast prototyping</h2>
+
+          <div>
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Available exclusivery on Figmaland</p>
+
+            <form action="#">
+              <input type="email" placeholder="Your Email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <h2>Partners</h2>
+      <h4>
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </h4>
+
+      <div>
+        <div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/google.svg" alt="google" />
+          </div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/amazon.svg" alt="amazon" />
+          </div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/microsoft.svg" alt="microsoft" />
+          </div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/uber.svg" alt="uber" />
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/dropbox.svg" alt="dropbox" />
+          </div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/google.svg" alt="google" />
+          </div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/uber.svg" alt="uber" />
+          </div>
+          <div>
+            <h6>Client Name</h6>
+            <img src="./assets/amazon.svg" alt="amazon" />
+          </div>
+        </div>
+      </div>
+
+      <button>Try For Free</button>
+    </section>
+
+    <section class="testimonals">
+      <h2>Testimonials</h2>
+
+      <div>
+        <img src="./assets/ibm.svg" alt="ibm" />
+        <h4>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who want a simple way to plan their schedule.
+        </h4>
+
+        <div>
+          <img src="./assets/designer-photo.svg" alt="designer-photo" />
+          <div>
+            <h6>Organize across</h6>
+            <a href="#">Ui designer</a>
+          </div>
+        </div>
+      </div>
+
+      <button>More Testimonials</button>
+    </section>
+
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <h4>
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </h4>
+
+      <div>
+        <div>
+          <h3>FREE</h3>
+          <h6>Organize across all apps by hand</h6>
+
+          <div>
+            <h1>0</h1>
+            <div>
+              <h3>$</h3>
+              <h6>Per Month</h6>
+            </div>
+          </div>
+
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+
+          <button>Order Now</button>
+        </div>
+
+        <div>
+          <h3>STANDARD</h3>
+          <h6>Organize across all apps by hand</h6>
+
+          <div>
+            <h1>10</h1>
+            <div>
+              <h3>$</h3>
+              <h6>Per Month</h6>
+            </div>
+          </div>
+
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+
+          <button>Order Now</button>
+        </div>
+
+        <div>
+          <h3>BUSINESS</h3>
+          <h6>Organize across all apps by hand</h6>
+
+          <div>
+            <h1>99</h1>
+            <div>
+              <h3>$</h3>
+              <h6>Per Month</h6>
+            </div>
+          </div>
+
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+
+          <button>Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <h2>Contact Us</h2>
+      <h4>
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </h4>
+
+      <div>
+        <form action="#">
+          <h3>Contact Us</h3>
+          <input type="text" name="name" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button>Send</button>
+        </form>
+
+        <div>
+          <div>
+            <div>
+              <img src="./assets/bx-map.svg" alt="map" />
+              <span>
+                6386 Spring St undefined Anchorage, Georgia 12473 United States
+              </span>
+            </div>
+            <div>
+              <img src="./assets/phone.svg" alt="phone" />
+              <span>(843) 555-0130</span>
+            </div>
+            <div>
+              <img src="./assets/mail.svg" alt="mail" />
+              <span>willie.jennings@example.com</span>
+            </div>
+          </div>
+
+          <div>
+            <img src="./assets/map-screen.svg" alt="map" />
+          </div>
+
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./assets/twitter-blue.svg" alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/facebook-blue.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/linkedin-blue.svg" alt="linkedin"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div>
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Tomothy</h3>
+          <ul>
+            <li><a href="#">Eleanor Edwards</a></li>
+            <li><a href="#">Ted Robertson</a></li>
+            <li><a href="#">Annette Russell</a></li>
+            <li><a href="#">Jennie Mckinney</a></li>
+            <li><a href="#">Gloria Richards</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Jane Black</h3>
+          <ul>
+            <li><a href="#">Philip Jones</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Colleen Russell</a></li>
+            <li><a href="#">Marvin Hawkins</a></li>
+            <li><a href="#">Bruce Simmmons</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <img src="./assets/bx-map.svg" alt="map" />
+          <span>7480 Mockingbird Hill undefined</span>
+        </div>
+        <div>
+          <img src="./assets/phone.svg" alt="phone" />
+          <span>(239) 555-0108</span>
+        </div>
+
+        <ul>
+          <li>
+            <a href="#"><img src="./assets/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/facebook.svg" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/linkedin.svg" alt="linkedin" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
